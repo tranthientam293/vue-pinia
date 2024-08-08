@@ -24,7 +24,7 @@ export const useTaskStore = defineStore('taskStore',{
   }
 })
 
-// define store using composition API
+// define store using Composition API
 export const useCompTaskStore = defineStore('compTaskStore',() => {
   const tasks = ref([
       {id: 1, title: "buy some milk", isFav: false},
